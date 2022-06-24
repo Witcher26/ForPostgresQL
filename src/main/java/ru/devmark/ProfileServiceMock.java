@@ -1,6 +1,7 @@
 package ru.devmark;
 
 import org.springframework.stereotype.Service;
+import ru.devmark.postgresql.ProfileNotFoundException;
 
 @Service
 public class ProfileServiceMock implements ProfileService {

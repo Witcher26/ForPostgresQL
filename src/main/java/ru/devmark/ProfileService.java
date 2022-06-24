@@ -1,5 +1,5 @@
 package ru.devmark;
 
 public interface ProfileService {
-    Profile getProfile(int personId);
+    public Profile getProfile(int personId);
 }
